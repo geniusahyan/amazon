@@ -4,12 +4,38 @@
 
 .Lang::before{
     content: '';
-    width: 1rem;
-    height: 1rem;
-    background: red;
-    position: absolute;
-    left: 0.5rem;
-    top: -0.5rem;
-    z-index: -1;
+    border-left: 0.5rem solid white ;
+    border-right: 0.5rem solid transparent;
     rotate: 45deg;
+    border-top: 0.5rem solid white;
+    border-bottom: 0.5rem solid transparent;
+    position: absolute;
+    top: -0.5rem;
+}
+
+.Sign::before{
+    content: '';
+    border-left: 0.5rem solid white ;
+    border-right: 0.5rem solid transparent;
+    rotate: 45deg;
+    border-top: 0.5rem solid white;
+    border-bottom: 0.5rem solid transparent;
+    position: absolute;
+    top: -0.5rem;
+    left: 3.5rem;
+}
+.Lang li{
+    list-style: none;
+    font-size: .875em;
+    margin-top: 0.3rem;
+    padding: 0.2rem;
+    border-bottom: 0.1rem solid gray;
+}
+.Lang li:hover{
+    background-color: rgba(199, 191, 191, 0.767);
+    cursor: pointer;
+    color: white;
+}
+.right a{
+    display: block;
 }
