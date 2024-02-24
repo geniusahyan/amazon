@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Lang::before{
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background: red;
+    position: absolute;
+    left: 0.5rem;
+    top: -0.5rem;
+    z-index: -1;
+    rotate: 45deg;
+}
