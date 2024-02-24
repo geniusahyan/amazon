@@ -39,3 +39,16 @@
 .right a{
     display: block;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+ a{
+    text-decoration: none;
+    color: blue;
+ }
+ a:hover{
+    text-decoration: underline;
+    color: yellow;
+ }
